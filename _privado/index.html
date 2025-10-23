@@ -2,51 +2,38 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Proyectos de Franco</title>
+  <title>Mapa Interactivo de Repitencia</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0d1117;
+      margin: 0;
+      background-color: #0d1117;
       color: #c9d1d9;
+      font-family: Arial, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
+    }
+    iframe {
+      width: 95vw;
+      height: 90vh;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
     }
     h1 {
-      margin-bottom: 40px;
-      font-size: 2em;
       color: #58a6ff;
-    }
-    a {
-      color: #58a6ff;
-      text-decoration: none;
-      font-size: 1.3em;
-      border: 2px solid #58a6ff;
-      padding: 10px 20px;
-      border-radius: 8px;
-      margin: 10px;
-      transition: 0.2s;
-    }
-    a:hover {
-      background: #58a6ff;
-      color: #0d1117;
+      margin-bottom: 10px;
+      font-weight: normal;
     }
   </style>
 </head>
 <body>
-  <h1>📊 Proyectos de Ciencia de Datos</h1>
+  <h1>📊 Mapa Interactivo de Repitencia</h1>
 
-  <!-- Link al mapa interactivo -->
-  <a href="taza_repitencia/Mapa%20Interactivo%20Repitencia.html" target="_blank">
-    🌍 Ver Mapa Interactivo de Repitencia
-  </a>
+  <!-- Muestra el mapa dentro del iframe -->
+  <iframe src="Mapa%20Interactivo%20Repitencia.html"></iframe>
 
-  <!-- Link al notebook -->
-  <a href="taza_repitencia/Analisis%20de%20repitencia.ipynb" target="_blank">
-    📓 Ver Notebook Jupyter
-  </a>
 </body>
 </html>
